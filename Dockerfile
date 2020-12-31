@@ -9,7 +9,7 @@ MAINTAINER unclebacon
 # Install hddtemp
 RUN apt-get update && apt-get -y install build-essential hddtemp
 
-ADD hddtemp /temp
+ADD files /temp
 ADD scripts /
 
 RUN /bin/bash /install.sh \

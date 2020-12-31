@@ -5,7 +5,7 @@ All credit to Drewster727, I just added an updated hddtemp executable
 docker container for hddtemp:
 http://savannah.nongnu.org/projects/hddtemp
 
-NOTE: This repository will install hddtemp in the docker container from apt repositories. I do not maintain the hddtemp project however this version does support NVMe drives.
+NOTE: This repository will install hddtemp in the docker container from apt repositories. I do not maintain the hddtemp project however this version does support NVMe drives and assumes a default temperature value field of 194 (the most common) if a drive is not found in the hddtemp.db file. Hopefully that will save people from having to edit this file.
 
 Example:
 ```

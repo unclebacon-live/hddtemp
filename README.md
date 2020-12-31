@@ -1,5 +1,7 @@
 # hddtemp
 
+All credit to Drewster727, I just added an updated hddtemp executable
+
 docker container for hddtemp:
 http://savannah.nongnu.org/projects/hddtemp
 

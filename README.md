@@ -10,7 +10,7 @@ NOTE: This repository will install hddtemp in the docker container from apt repo
 Example:
 ```
 docker run -d \
---privileged=true 
+--privileged=true \
 --name="HDDTemp" \
 -e HDDTEMP_ARGS="-q -d -F /dev/sd*" \
 -e TZ="America/Toronto" \

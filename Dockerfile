@@ -14,6 +14,7 @@ ADD scripts /
 
 RUN ["chmod", "+x", "/install.sh"]
 RUN rm -f /install.sh
+RUN rm -fdr /temp
 
 # Define default command.
 # example = -d --listen localhost --port 7634 /dev/s*
